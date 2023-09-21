@@ -40,7 +40,7 @@ productShow()
                     <p class="text-green-700">Stock Available: {{ product.stock }}</p>
                     <p><b>Rating: </b>{{ product.rating }}</p>
                 </div><hr>
-                <p><span class="text-xl font-medium">Price: </span> {{ product.price }}$</p>
+                <p class="text-2xl font-medium"><span class="text-xl font-medium">Price: </span> {{ product.price }}$</p>
                 <p><span class="text-xl font-medium">Brand Name: </span> {{ product.brand }}</p>
                 <p><span class="text-xl font-medium">Category: </span> {{ product.category }}</p> <hr>
                 <p><span class="text-xl font-medium">Descriptin: </span><br> {{ product.description }}</p> <hr>
